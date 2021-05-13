@@ -62,7 +62,9 @@
 ## 더 가까우면, 더 진해요
 현재 위치에서 가까운 쓰레기통일수록 더 진하게 보입니다. 흐린 쓰레기통은 멀리 있어요!
 
-[[ image ]]
+<div align="center">
+    <img src="./Resources/near-real.png" width=500>
+</div>
 
 <a id="trip-to-can"></a>
 ## 쓰레기통을 향한 모험
