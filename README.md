@@ -19,16 +19,27 @@
     <img src="./Resources/recycle-bin.jpg">
 </div>
 
-길을 거닐다가 대충 쓰레기통 못찾아서 힘들었던 내용
+길을 걷다가 쓰레기통을 찾지 못해 계속 들고다니거나, 길거리에 쌓인 쓰레기봉투에 꾸겨 넣은 적이 있지 않나요?
 
+### 쓰레기는 쓰레기통에! 근데 쓰레기통은 어디에?
 
 ---
 
-
 <a id="features"></a>
 # 주요기능 🚮 
-- 기능1
-- 기능2
+
+## 가장 가까운 쓰레기통
+현재 위치에서 가장 가까운 쓰레기통의 위치를 보여줍니다. 물론 임의의 위치도 지정할 수 있고요!
+
+[[ image ]]
+
+## 더 근접하면, 더 진해요
+현재 위치에서 근접한 쓰레기통일수록 더 진하게 보입니다. 흐린 쓰레기통은 멀리 있어요!
+
+[[ image ]]
+
+## 곧 서울을 정복하리라
+현재는 영등포구의 쓰레기통만 지원하고 있어요. 조만간 영등포구를 넘어 서울을 정복할 겁니다!
 
 ---
 
@@ -56,3 +67,4 @@ by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
 <a id="copyright"></a>
 # Copyright ©
 Copyright 2021. (Team. 개린이들) All rights reserved.
+q
