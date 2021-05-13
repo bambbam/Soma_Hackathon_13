@@ -77,7 +77,7 @@
 현재는 영등포구의 쓰레기통만 지원하고 있어요. 조만간 영등포구를 넘어 서울을 정복할 겁니다!
 
 <div align="center">
-    <img src="./Resources/seoul-free-photo.png" width=500>
+    <img src="./Resources/seoul-free-photo.jpg" width=500>
 </div>
 
 ---
