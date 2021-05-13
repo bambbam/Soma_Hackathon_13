@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="./Resources/sw-maestro.png" width=200>
-    <br>
+    <h4>SM Maestro 12th</h4>
+    <h3>Hackathon Team-13 개린이들<h3>
     <img src="./Resources/team_name.png" width=500>
 </div>
 
@@ -72,6 +72,8 @@
 
 <a id="support"></a>
 # 프로젝트 지원 💸
+
+![sw-maestro](./Resources/sw-maestro.png)
 
 > 이 성과는 2021년도 과학기술정보통신부의 재원으로 정보통신기획평가원의 지원을 받아 수행된 연구임(IITP-0000-SW마에스트로과정).   
 This work was supported by the Institute of Information & Communications Technology Planning & Evaluation(IITP) grant funded
