@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,8 +14,7 @@
 </head>
 <body>
 	
-	<div class="preview preview-hidden">
-      <div class = "loading-page">
+	<div class="preview">
 		<div class="loading-container">
 		  <div class="loading"></div>
 		  <div class="loading-logo">
@@ -25,14 +22,13 @@
 			<h1>여기 어때? 여기 버려!</h1>
 		  </div>
 		</div>
-		<div class="loading_info">
+		<div class="loading-info">
 		  <span> 현재는 영등포구의 쓰레기통만 지원하고 있어요. </span>
 		  <span> 조만간 영등포구를 넘어 서울을 정복할 겁니다! </span>
 		</div>
-	  </div>
     </div>
     
-    <div class="main">
+    <div class="main" id="hidden">
       <header class="header">
         <img src="./logo.png" alt="logo" />
         <div class="title">
@@ -103,6 +99,13 @@
       </section>
     </div>
 
+	<script>
+		
+		var to_show = document.getElementsByClassName("main")
+		var to_hide = document.getElementsByClassName("preview");
+		setTimeout(()=>{[to_show[0].id,to_hide[0].id] = [to_hide[0].id,to_show[0].id]},3000);
+		
+	</script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=<%=kakaoMap%>&libraries=services"></script>
 <script type="text/javascript" src = "./source.js"></script>
 </body>

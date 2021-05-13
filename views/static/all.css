@@ -1,19 +1,30 @@
+#hidden {
+  display: none;
+}
+
+body {
+    width:100%;
+    height:100vh;
+}
+
 /* LOADING */
 .preview {
     width:100%;
+    height:100vh;
     background-color: #082d64;
+    overflow: hidden;
 }
 
 .loading {
-  width: 300px;
-  height: 300px;
+  width: 230px;
+  height: 230px;
   position: absolute;
   border-radius: 100%;
 }
 
 .loading-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -44,12 +55,12 @@
 }
 
 .loading-logo img {
-  width: 150px;
+  width: 120px;
 }
 .loading-logo h1 {
   color: #d5def1;
   font-family: "Do Hyeon", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -71,7 +82,7 @@
   }
 }
 
-.loading_info {
+.loading-info {
   width: 100%;
   position: fixed;
   bottom: 50px;
@@ -80,13 +91,10 @@
   justify-content: center;
 }
 
-.loading_info span {
+.loading-info span {
   color: white;
+  font-size: 15px;
   text-align: center;
-}
-
-.preview-hidden {
-  display: none;
 }
 
 /* Mobile CSS*/
@@ -183,10 +191,16 @@
   display: none;
 }
 
+@media screen and (max-height: 600px) {
+    .title {
+        display: none;
+    }
+}
+
 /* >= 1025px (Desktop) */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {    
     /* LOADING */
-    .loading {
+  .loading {
     width: 500px;
     height: 500px;
   }
@@ -197,7 +211,6 @@
   .loading-logo h1 {
     font-size: 34px;
   }
-}
  
   /* MAIN */
   .main {
@@ -221,7 +234,7 @@
 
   #mapView {
     width: 70vw;
-    height: 148vh;
+    height: 150vh;
     position: static;
   }
 
@@ -243,7 +256,6 @@
   .info img {
     width: 4rem;
   }
-    
   .hidden {
     display: grid;
   }

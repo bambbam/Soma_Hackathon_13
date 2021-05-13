@@ -94,6 +94,19 @@ body {
 
 /* >= 1025px (Desktop) */
 @media screen and (min-width: 1025px) {
+    /* LOADING */
+    .loading {
+    width: 500px;
+    height: 500px;
+  }
+
+  .loading-logo img {
+    width: 200px;
+  }
+  .loading-logo h1 {
+    font-size: 34px;
+  }
+}
  
   /* MAIN */
   body {

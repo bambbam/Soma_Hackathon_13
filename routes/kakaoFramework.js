@@ -19,11 +19,5 @@ router.get('/loading',async(req,res)=>{
 	res.render('loading/loading.ejs');
 })
 
-router.get('/test',async(req,res)=>{
-	res.render('all.ejs',{
-		kakaoMap : kakaoMapKey.kakaoMap,
-        data : data.list,
-		boolean : false
-	})
-})
+rrouter.getouter.get
 module.exports = router;
