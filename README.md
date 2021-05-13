@@ -69,6 +69,8 @@
     - Email : ting_916@naver.com
     - Github : [Ting-Kim](https://github.com/Ting-Kim)
 - 박경원
+    - Email : kwpark96@naver.com
+    - Github : [W0nee](https://github.com/W0nee)
 - 이도원
     - Email : dwon424@gmail.com
     - Github : [2dowon](https://github.com/2dowon)
