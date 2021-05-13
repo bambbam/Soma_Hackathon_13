@@ -38,7 +38,7 @@
 
 - 전민수 / 팀장
 - 강문해
-- 김도원
+- 김태호
 - 박경원
 - 이도원
 - 정기웅
@@ -54,5 +54,10 @@ by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
 ---
 
 <a id="copyright"></a>
+<<<<<<< HEAD
 # Copyright ©
 Copyright 2021. (Team. 개린이들) All rights reserved.
+=======
+# Copyright
+Copyright 2021. (Team. 개린이들) All rights reserved.
+>>>>>>> bf9331c71b1b0bf60b6ec70a1068e08364959f19
