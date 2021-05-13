@@ -15,5 +15,9 @@ router.get('/',async(req,res)=>{
     })
 })
 
+router.get('/loading',async(req,res)=>{
+	res.render('loading/loading.ejs');
+})
+
 
 module.exports = router;
