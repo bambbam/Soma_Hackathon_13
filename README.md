@@ -30,6 +30,14 @@
 <a id="features"></a>
 # 주요기능 🚮 
 
+## 쓰레기통 갖고 온나
+쓰레기통이 있는 곳에 핀이 찍힙니다.
+
+<div align="center">
+    <img src="./Resources/trash_cans.png" width=500>
+</div>
+
+
 ## 가장 가까운 쓰레기통
 현재 위치에서 가장 가까운 쓰레기통의 위치를 보여줍니다. 물론 임의의 위치도 지정할 수 있고요!
 
