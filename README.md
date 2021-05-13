@@ -51,7 +51,9 @@
 ## 가장 가까운 쓰레기통
 현재 위치에서 가장 가까운 쓰레기통의 위치를 보여줍니다. 물론 임의의 위치도 지정할 수 있고요!
 
-[[ image ]]
+<div align="center">
+    <img src="./Resources/nearest-can.png" width=500>
+</div>
 
 <a id="near-then-real"></a>
 ## 더 가까우면, 더 진해요
@@ -63,7 +65,9 @@
 ## 쓰레기통을 향한 모험
 선택한 쓰레기통으로 경로 안내를 받을 수 있어요.
 
-[[ image ]]
+<div align="center">
+    <img src="./Resources/path-find3.png" width=500>
+</div>
 
 <a id="conquer-seoul"></a>
 ## 곧 서울을 정복하리라
