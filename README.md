@@ -9,7 +9,7 @@
 
 - [쓰레기통을 찾아서](#find-trash)
 - [주요기능](#features)
-    - [쓰레기통을 찾아서](#give-me-trash-can)
+    - [쓰레기통 갖고 온나](#give-me-trash-can)
     - [가장 가까운 쓰레기통](#shortest-trash-can)
     - [더 가까우면, 더 진해요](#near-then-real)
     - [곧 서울을 정복하리라](#conquer-seoul)
