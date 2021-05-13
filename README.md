@@ -76,7 +76,9 @@
 ## 곧 서울을 정복하리라
 현재는 영등포구의 쓰레기통만 지원하고 있어요. 조만간 영등포구를 넘어 서울을 정복할 겁니다!
 
-[[ image ]]
+<div align="center">
+    <img src="./Resources/seoul-free-photo.png" width=500>
+</div>
 
 ---
 
