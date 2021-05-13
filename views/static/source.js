@@ -37,8 +37,8 @@ for(let i = 0;i<myJsonData.length;i++){
 // 체크
 var lat = 37.526888558257895;
 var lon = 126.89608433861413;
-var home_marker;
-
+var homeMarker;
+var homeInfoWindow;
 
 // var lat = 37.6273217;
 // var lon = 127.1514821;
@@ -342,11 +342,13 @@ function iconHandler(i){
 
 ///// 위치 조정 버튼 클릭 시 이동 가능 /////
 function setLocation(){
-	
+	var homeInfo = document.getElementById('homeInfo');
+	var btnInfo = document.getElementById('btn-setLocation');
 	console.log("hello, kakao")
-	var infowindow = new kakao.maps.InfoWindow({
-        content: '<div>여기인가요? <button onClick="stop_marker(map)">네!</button></div>' // 인포윈도우에 표시할 내용
-    });
+	homeInfo.innerHTML = '위치를 지정해주세요 <button onClick="stop_marker(map)">여기!</button>';
+	// var infowindow = new kakao.maps.InfoWindow({
+    //     content: '<div>여기인가요? <button onClick="stop_marker(map)">네!</button></div>' // 인포윈도우에 표시할 내용
+    // });
 	
 	kakao.maps.event.addListener(map, 'click', clickHandler = function(mouseEvent){
 		// 클릭한 위도, 경도 정보를 가져옵니다 
@@ -355,13 +357,18 @@ function setLocation(){
 		lon = latlng.getLng();
 
 		// 마커 위치를 클릭한 위치로 옮깁니다
-		home_marker.setPosition(latlng);
-		infowindow.open(map, home_marker);
+		homeMarker.setPosition(latlng);
+		// btnInfo.innerHTML = "여기!";
+		homeInfoWindow.setPosition(latlng);
+		infowindow.open(map, homeMarker);
 	}); 
 }
 
 /////// 기준 위치 조정(mouseEvent) 중지 ///////
 function stop_marker(map) {
+
+	var homeInfo = document.getElementById('homeInfo');
+	homeInfo.innerHTML = '<div id="homeInfo" style="padding:5px;">' + lat + "  &  " + lon + '여기에 계신가요?<br><button id="btn-setLocation" onClick="setLocation()">위치 조정</button></div>';
 	console.log("stop_marker called", map);
 	kakao.maps.event.removeListener(map, 'click', clickHandler);
 	console.log("Last position : ",lat, lon);

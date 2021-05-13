@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>여기 어때? 여기 버려!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/loading.css" />
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div class="loading-logo">
+        <img src="./logo.png" alt="logo" />
+        <h1>여기 어때? 여기 버려!</h1>
+      </div>
+    </div>
+    <div class="info">
+      <span> 현재는 영등포구의 쓰레기통만 지원하고 있어요. </span>
+      <span> 조만간 영등포구를 넘어 서울을 정복할 겁니다! </span>
+    </div>
+  </body>
+	<script>
+		setTimeout(async()=>{
+			await window.open('/');
+			await window.close();
+		},5000);
+	</script>
+</html>
