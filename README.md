@@ -41,6 +41,8 @@
 ## 곧 서울을 정복하리라
 현재는 영등포구의 쓰레기통만 지원하고 있어요. 조만간 영등포구를 넘어 서울을 정복할 겁니다!
 
+[[ image ]]
+
 ---
 
 <a id="team"></a>
@@ -48,11 +50,21 @@
 ### Hackaton Team 13
 
 - 전민수 / 팀장
+    - Email : minsu2530@u.sogang.ac.kr
+    - Github : [bambbam](https://github.com/bambbam)
 - 강문해
+    - Email : tjdnf2eoeld@naver.com
+    - Github : [airplane9876](https://github.com/airplane9876) 
 - 김태호
+    - Email : ting_916@naver.com
+    - Github : [Ting-Kim](https://github.com/Ting-Kim)
 - 박경원
 - 이도원
+    - Email : dwon424@gmail.com
+    - Github : [2dowon](https://github.com/2dowon)
 - 정기웅
+    - Email : answeqr@gmail.com
+    - Github : [QuqqU](https://github.com/QuqqU)
 
 --- 
 
