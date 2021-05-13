@@ -1,5 +1,6 @@
 <div align="center">
     <img src="./Resources/sw-maestro.png" width=200>
+    <br>
     <img src="./Resources/team_name.png" width=500>
 </div>
 
