@@ -12,6 +12,7 @@
     - [쓰레기통 갖고 온나](#give-me-trash-can)
     - [가장 가까운 쓰레기통](#shortest-trash-can)
     - [더 가까우면, 더 진해요](#near-then-real)
+    - [쓰레기통을 향한 모험](#trip-to-can)
     - [곧 서울을 정복하리라](#conquer-seoul)
 - [개린이들 팀원](#team)
 - [프로젝트 지원](#support)
@@ -55,6 +56,12 @@
 <a id="near-then-real"></a>
 ## 더 가까우면면, 더 진해요
 현재 위치에서 가까운 쓰레기통일수록 더 진하게 보입니다. 흐린 쓰레기통은 멀리 있어요!
+
+[[ image ]]
+
+<a id="trip-to-can"></a>
+## 쓰레기통을 향한 모험
+선택한 쓰레기통으로 경로 안내를 받을 수 있어요.
 
 [[ image ]]
 
