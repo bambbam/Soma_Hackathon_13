@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>여기 어때? 여기 버려!</title>
+	
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <header class="header">
+      <img src="./logo.png" alt="logo" />
+      <div class="title">
+        <h1>여기 어때?</h1>
+        <h1>여기 버려!</h1>
+      </div>
+    </header>
+    <div class="map">
+      <input type="hidden" id="myJsonData" value="<%=JSON.stringify(data)%>" />
+      <div id="mapView"></div>
+    </div>
+    <section class="info">
+      <div class="grid">
+        <div class="icon">
+          <img src="./marker.png" alt="marker" />
+        </div>
+        <div class="location" id = "first">
+          <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
+        </div>
+        <div class="meter">
+          <!-- <strong>10M</strong> -->
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <img src="./marker.png" alt="marker" />
+        </div>
+        <div class="location" id = "second">
+          <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
+        </div>
+        <div class="meter">
+          <!-- <strong>10M</strong> -->
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <img src="./marker.png" alt="marker" />
+        </div>
+        <div class="location" id = "third">
+          <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
+        </div>
+        <div class="meter">
+          <!-- <strong>10M</strong> -->
+        </div>
+      </div>
+      <div class="grid hidden">
+        <div class="icon">
+          <img src="./marker.png" alt="marker" />
+        </div>
+        <div class="location" id = "third">
+          <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
+        </div>
+        <div class="meter">
+          <!-- <strong>10M</strong> -->
+        </div>
+      </div>
+      <div class="grid hidden">
+        <div class="icon">
+          <img src="./marker.png" alt="marker" />
+        </div>
+        <div class="location" id = "third">
+          <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
+        </div>
+        <div class="meter">
+          <!-- <strong>10M</strong> -->
+        </div>
+      </div>
+    </section>
