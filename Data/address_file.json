@@ -1,0 +1,1075 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "manage_num": "가로1-1",
+            "road_name": "서울특별시 영등포구 국회대로 675",
+            "location": "안상규벌꿀 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 2,
+            "manage_num": "가로1-10",
+            "road_name": "서울특별시 영등포구 당산로 235",
+            "location": "당산역 2번출구 버스정류장(19-645)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 3,
+            "manage_num": "가로1-11",
+            "road_name": "서울특별시 영등포구 양평로 36",
+            "location": "당산역 7번 출구 뒤",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 4,
+            "manage_num": "가로1-12",
+            "road_name": "서울특별시 영등포구 당산로 223",
+            "location": "올리브 영 앞",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 5,
+            "manage_num": "가로1-16",
+            "road_name": "서울특별시 영등포구 양평로 64",
+            "location": "gs편의점 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 6,
+            "manage_num": "가로1-18",
+            "road_name": "서울특별시 영등포구 양평로 36",
+            "location": "당산역 7번 출구 뒤",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 7,
+            "manage_num": "가로1-19",
+            "road_name": "서울특별시 영등포구 양평로 24-1",
+            "location": "o&k 빌딩 앞 버스정류장(19-175)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 8,
+            "manage_num": "가로1-20",
+            "road_name": "서울특별시 영등포구 당산로 222",
+            "location": "당산역 10번출구 소공원",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 9,
+            "manage_num": "가로1-21",
+            "road_name": "서울특별시 영등포구 당산로 222",
+            "location": "당산역 10번출구 소공원",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 10,
+            "manage_num": "가로1-22",
+            "road_name": "서울특별시 영등포구 당산로 222",
+            "location": "당산역 10번출구 소공원",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 11,
+            "manage_num": "가로1-3",
+            "road_name": "서울특별시 영등포구 영중로 55",
+            "location": "영등포시장 버스정류장(19-120)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 12,
+            "manage_num": "가로1-4",
+            "road_name": "서울특별시 영등포구 영중로 122",
+            "location": "서강 어린이 공원 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 13,
+            "manage_num": "가로1-5",
+            "road_name": "서울특별시 영등포구 양평로 135",
+            "location": "C & V 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 14,
+            "manage_num": "가로1-6",
+            "road_name": "서울특별시 영등포구 양평로 136",
+            "location": "가족호텔 신축현장 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 15,
+            "manage_num": "가로1-8",
+            "road_name": "서울특별시 영등포구 양평로 116-1",
+            "location": "양평로 프리마트 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 16,
+            "manage_num": "가로1-9",
+            "road_name": "서울특별시 영등포구 당산로 231",
+            "location": "당산역 1번 출구 앞",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 17,
+            "manage_num": "가로2-1",
+            "road_name": "서울특별시 영등포구 문래로 197",
+            "location": "영등포 소방서 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 18,
+            "manage_num": "가로2-10",
+            "road_name": "서울특별시 영등포구 문래로 110",
+            "location": "문래 청소년 수련관 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 19,
+            "manage_num": "가로2-11",
+            "road_name": "서울특별시 영등포구 경인로 705",
+            "location": "버스중앙차로(19-002)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 20,
+            "manage_num": "가로2-12",
+            "road_name": "서울특별시 영등포구 경인로 705",
+            "location": "버스중앙차로(19-002)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 21,
+            "manage_num": "가로2-13",
+            "road_name": "서울특별시 영등포구 경인로 829",
+            "location": "한솔요리학원 앞 버스중앙차로 (19-005)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 22,
+            "manage_num": "가로2-14",
+            "road_name": "서울특별시 영등포구 경인로 829",
+            "location": "한솔요리학원 앞 버스중앙차로 (19-005)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 23,
+            "manage_num": "가로2-15",
+            "road_name": "서울특별시 영등포구 경인로 829",
+            "location": "한솔요리학원 앞 버스중앙차로 (19-005)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 24,
+            "manage_num": "가로2-16",
+            "road_name": "서울특별시 영등포구 경인로 720",
+            "location": "버스중앙차로(19-001)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 25,
+            "manage_num": "가로2-17",
+            "road_name": "서울특별시 영등포구 선유서로 76",
+            "location": "영등포기계상가 맞은편 버스정류장(19-203)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 26,
+            "manage_num": "가로2-18",
+            "road_name": "서울특별시 영등포구 영등포로 59-2",
+            "location": "영등포기계상가버스정류소(19-202)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 27,
+            "manage_num": "가로2-19",
+            "road_name": "서울특별시 영등포구 영등포로 96",
+            "location": "교보생명 앞버스정류소(19-166)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 28,
+            "manage_num": "가로2-2",
+            "road_name": "서울특별시 영등포구 영등포로 208",
+            "location": "국민은행 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 29,
+            "manage_num": "가로2-20",
+            "road_name": "서울특별시 영등포구 양산로 111",
+            "location": "주차문화과 앞 사거리",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 30,
+            "manage_num": "가로2-21",
+            "road_name": "서울특별시 영등포구 경인로 851",
+            "location": "영등포역 버스중앙차로(19-006)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 31,
+            "manage_num": "가로2-22",
+            "road_name": "서울특별시 영등포구 경인로 851",
+            "location": "영등포역 버스중앙차로(19-006)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 32,
+            "manage_num": "가로2-23",
+            "road_name": "서울특별시 영등포구 경인로 851",
+            "location": "영등포역 버스중앙차로(19-006)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 33,
+            "manage_num": "가로2-24",
+            "road_name": "서울특별시 영등포구 경인로 851",
+            "location": "영등포역 버스중앙차로(19-006)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 34,
+            "manage_num": "가로2-25",
+            "road_name": "서울특별시 영등포구 경인로 841",
+            "location": "우체국 앞 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 35,
+            "manage_num": "가로2-26",
+            "road_name": "서울특별시 영등포구 경인로 841",
+            "location": "우체국 앞 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 36,
+            "manage_num": "가로2-27",
+            "road_name": "서울특별시 영등포구 경인로 775",
+            "location": "에이스하이테크시티 앞 버스중앙차로(19-004)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 37,
+            "manage_num": "가로2-28",
+            "road_name": "서울특별시 영등포구 경인로 775",
+            "location": "에이스하이테크시티 앞 버스중앙차로(19-004)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 38,
+            "manage_num": "가로2-29",
+            "road_name": "서울특별시 영등포구 경인로 789",
+            "location": "gs주유소 앞 버스정류소(19-003)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 39,
+            "manage_num": "가로2-3",
+            "road_name": "서울특별시 영등포구 영등포로 208",
+            "location": "국민은행 앞",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 40,
+            "manage_num": "가로2-30",
+            "road_name": "서울특별시 영등포구 경인로 789",
+            "location": "gs주유소 앞 버스정류소(19-003)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 41,
+            "manage_num": "가로2-4",
+            "road_name": "서울특별시 영등포구 당산로27길 12",
+            "location": "당산공원 버스정류장 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 42,
+            "manage_num": "가로2-5",
+            "road_name": "서울특별시 영등포구 당산로27길 12",
+            "location": "당산공원 버스정류장 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 43,
+            "manage_num": "가로2-6",
+            "road_name": "서울특별시 영등포구 영등포로 194",
+            "location": "씨티은행 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 44,
+            "manage_num": "가로2-7",
+            "road_name": "서울특별시 영등포구 영등포로 141",
+            "location": "제비표 페인트 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 45,
+            "manage_num": "가로2-8",
+            "road_name": "서울특별시 영등포구 영등포로 141",
+            "location": "제비표 페인트 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 46,
+            "manage_num": "가로2-9",
+            "road_name": "서울특별시 영등포구 문래로 110",
+            "location": "문래 청소년 수련관 앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 47,
+            "manage_num": "가로3-1",
+            "road_name": "서울특별시 영등포구 신길로 252",
+            "location": "영보빌딩 앞 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 48,
+            "manage_num": "가로3-10",
+            "road_name": "서울특별시 영등포구 신길로 89",
+            "location": "백악관웨딩홀 버스정류장(19-241)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 49,
+            "manage_num": "가로3-11",
+            "road_name": "서울특별시 영등포구 신길로 89",
+            "location": "남서울ⓐ 버스정류장(19-249)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 50,
+            "manage_num": "가로3-12",
+            "road_name": "서울특별시 영등포구 도신로 100",
+            "location": "우성ⓐ 5차 입구",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 51,
+            "manage_num": "가로3-13",
+            "road_name": "서울특별시 영등포구 가마산로 496",
+            "location": "신풍시장 버스정류장(19-878)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 52,
+            "manage_num": "가로3-14",
+            "road_name": "서울특별시 영등포구 신길로 142-1",
+            "location": "사러가 쇼핑센터 버스정류장 (19-239)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 53,
+            "manage_num": "가로3-15",
+            "road_name": "서울특별시 영등포구 신길로 156",
+            "location": "사러가 사거리 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 54,
+            "manage_num": "가로3-16",
+            "road_name": "서울특별시 영등포구 신길로 155",
+            "location": "사러가 사거리 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 55,
+            "manage_num": "가로3-17",
+            "road_name": "서울특별시 영등포구 영등포로 422",
+            "location": "대방역 버스중앙차로(19-015)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 56,
+            "manage_num": "가로3-3",
+            "road_name": "서울특별시 영등포구 도신로 228",
+            "location": "대신시장 버스정류장(19-228)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 57,
+            "manage_num": "가로3-4",
+            "road_name": "서울특별시 영등포구 영등포로 398",
+            "location": "횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 58,
+            "manage_num": "가로3-5",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "공군회관 앞 정류장(19-255)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 59,
+            "manage_num": "가로3-6",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "병무청 앞 버스중앙차로(19-014)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 60,
+            "manage_num": "가로3-7",
+            "road_name": "서울특별시 영등포구 여의대방로59길",
+            "location": "대방역 버스정류장(19-307)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 61,
+            "manage_num": "가로3-8",
+            "road_name": "서울특별시 영등포구 신길로 155",
+            "location": "사러가 교차로 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 62,
+            "manage_num": "가로3-9",
+            "road_name": "서울특별시 영등포구 신길로 190",
+            "location": "우신초교 버스정류장(19-238)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 63,
+            "manage_num": "가로5-1",
+            "road_name": "서울특별시 영등포구 대림로 146",
+            "location": "대동초교 맞은편 버스정류장(19-262)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 64,
+            "manage_num": "가로5-10",
+            "road_name": "서울특별시 영등포구 시흥대로 659",
+            "location": "천지당약국 앞 택시승강장",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 65,
+            "manage_num": "가로5-11",
+            "road_name": "서울특별시 영등포구 시흥대로 613",
+            "location": "안국약품 앞 버스중앙차로(19-009)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 66,
+            "manage_num": "가로5-12",
+            "road_name": "서울특별시 영등포구 대림역",
+            "location": "6번출구 공항리무진 버스정류장(19-502)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 67,
+            "manage_num": "가로5-13",
+            "road_name": "서울특별시 영등포구 대림역",
+            "location": "5번출구 앞 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 68,
+            "manage_num": "가로5-14",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "한림대학교 병원 앞 횡단보도",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 69,
+            "manage_num": "가로5-15",
+            "road_name": "서울특별시 영등포구 시흥대로659-1",
+            "location": "강남성심병원, 대림성모병원버스중앙차로(19-010)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 70,
+            "manage_num": "가로5-16",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "경남아너스빌 버스중앙차로(19-011)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 71,
+            "manage_num": "가로5-17",
+            "road_name": "서울특별시 영등포구 여의대방로 89",
+            "location": "보라매공원 버스중앙차로(19-012)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 72,
+            "manage_num": "가로5-18",
+            "road_name": "서울특별시 영등포구 대방천로 259",
+            "location": "동작세무서 앞 버스중앙차로(19-013)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 73,
+            "manage_num": "가로5-2",
+            "road_name": "서울특별시 영등포구 대림로21길 6",
+            "location": "대동초교 앞 버스정류장(19-266)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 74,
+            "manage_num": "가로5-3",
+            "road_name": "서울특별시 영등포구 대림로21길 6",
+            "location": "대동초교 앞 버스정류장(19-266)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 75,
+            "manage_num": "가로5-4",
+            "road_name": "서울특별시 영등포구 대림로 191",
+            "location": "대림3동주민센터 옆",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 76,
+            "manage_num": "가로5-5",
+            "road_name": "서울특별시 영등포구 대림로 191",
+            "location": "대림3동주민센터 옆",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 77,
+            "manage_num": "가로5-8",
+            "road_name": "서울특별시 영등포구 신길로 39",
+            "location": "썬프라자 앞 버스정류장(19-258)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 78,
+            "manage_num": "가로5-9",
+            "road_name": "서울특별시 영등포구 신길로 39",
+            "location": "썬프라자 앞 버스정류장(19-258)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 79,
+            "manage_num": "가로6-1",
+            "road_name": "서울특별시 영등포구 버드나루로",
+            "location": "근로복지공단,서울남부지사 버스정류장(19-557)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 80,
+            "manage_num": "가로6-10",
+            "road_name": "서울특별시 영등포구 영중로",
+            "location": "신화병원 버스정류장(19-121)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 81,
+            "manage_num": "가로6-11",
+            "road_name": "서울특별시 영등포구 영등포로",
+            "location": "김안과병원 버스정류장(19-118)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 82,
+            "manage_num": "가로6-12",
+            "road_name": "서울특별시 영등포구 경인로",
+            "location": "영등포역 버스중앙차로(19-005)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 83,
+            "manage_num": "가로6-13",
+            "road_name": "서울특별시 영등포구 영신로",
+            "location": "영등포청과시장 버스정류장(19-436)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 84,
+            "manage_num": "가로6-14",
+            "road_name": "서울특별시 영등포구 영신로",
+            "location": "당산신동아파밀리에 버스정류장(19-435)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 85,
+            "manage_num": "가로6-15",
+            "road_name": "서울특별시 영등포구 신길로",
+            "location": "대성병원 버스정류장(19-101)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 86,
+            "manage_num": "가로6-16",
+            "road_name": "서울특별시 영등포구 문래로",
+            "location": "영일시장, 록스 버스정류장(19-588)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 87,
+            "manage_num": "가로6-17",
+            "road_name": "서울특별시 영등포구 문래로28길",
+            "location": "문래주민센터 마을버스정류장(19-733)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 88,
+            "manage_num": "가로6-18",
+            "road_name": "서울특별시 영등포구 영등포로",
+            "location": "당산동진로아파트 버스정류장(19-162)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 89,
+            "manage_num": "가로6-19",
+            "road_name": "서울특별시 영등포구 영등포로",
+            "location": "당산동진로아파트 버스정류장(19-163)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 90,
+            "manage_num": "가로6-2",
+            "road_name": "서울특별시 영등포구 버드나루로",
+            "location": "근로복지공단,서울남부지사 버스정류장(19-578)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 91,
+            "manage_num": "가로6-20",
+            "road_name": "서울특별시 영등포구 양산로",
+            "location": "영등포구청 버스정류장(19-852)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 92,
+            "manage_num": "가로6-21",
+            "road_name": "서울특별시 영등포구 당산로",
+            "location": "현대아파트 버스정류장(19-302)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 93,
+            "manage_num": "가로6-22",
+            "road_name": "서울특별시 영등포구 문래로",
+            "location": "문래역 버스정류장(19-193)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 94,
+            "manage_num": "가로6-23",
+            "road_name": "서울특별시 영등포구 경인로",
+            "location": "문래동남성아파트 버스중앙차로(19-001)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 95,
+            "manage_num": "가로6-24",
+            "road_name": "서울특별시 영등포구 도림로",
+            "location": "성락교회 버스장류장(19-234)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 96,
+            "manage_num": "가로6-25",
+            "road_name": "서울특별시 영등포구 도림로",
+            "location": "신길5동주민센터 버스정류장(19-242)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 97,
+            "manage_num": "가로6-26",
+            "road_name": "서울특별시 영등포구 경인로",
+            "location": "신도림역 버스중앙차로(17-001)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 98,
+            "manage_num": "가로6-27",
+            "road_name": "서울특별시 영등포구 신풍로",
+            "location": "신풍역 버스정류장(19-219)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 99,
+            "manage_num": "가로6-28",
+            "road_name": "서울특별시 영등포구 도신로",
+            "location": "한국방송통신대학 버스정류장(19-273)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 100,
+            "manage_num": "가로6-29",
+            "road_name": "서울특별시 영등포구 노들로",
+            "location": "양평한신아파트,선유도공원입구 버스정류장(19-216)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 101,
+            "manage_num": "가로6-3",
+            "road_name": "서울특별시 영등포구 영등포로",
+            "location": "신길역 버스정류장(19-279)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 102,
+            "manage_num": "가로6-30",
+            "road_name": "서울특별시 영등포구 양평로22길",
+            "location": "당산초등학교 버스정류장(19-220)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 103,
+            "manage_num": "가로6-31",
+            "road_name": "서울특별시 영등포구 양평로",
+            "location": "한신아파트, 선유도역 버스정류장(19-211)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 104,
+            "manage_num": "가로6-32",
+            "road_name": "서울특별시 영등포구 선유로",
+            "location": "선유고등학교 버스정류장(28-017)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 105,
+            "manage_num": "가로6-33",
+            "road_name": "서울특별시 영등포구 경인로",
+            "location": "남부지방법원등기국 버스중앙차로(19-004)",
+            "location_detail": "버스중앙차로내 휴지통"
+        },
+        {
+            "id": 106,
+            "manage_num": "가로6-34",
+            "road_name": "서울특별시 영등포구 가마산로",
+            "location": "신길건영아파트 버스정류장(19-455)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 107,
+            "manage_num": "가로6-35",
+            "road_name": "서울특별시 영등포구 가마산로",
+            "location": "대영고등학교 후문 버스정류장(19-827)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 108,
+            "manage_num": "가로6-36",
+            "road_name": "서울특별시 영등포구 가마산로",
+            "location": "수정교회 버스정류장(19-457)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 109,
+            "manage_num": "가로6-4",
+            "road_name": "서울특별시 영등포구 영중로",
+            "location": "경방타임스퀘어,신세계백화점 버스정류장(19-110)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 110,
+            "manage_num": "가로6-5",
+            "road_name": "서울특별시 영등포구 영중로",
+            "location": "경방타임스퀘어,신세계백화점 버스정류장(19-821)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 111,
+            "manage_num": "가로6-6",
+            "road_name": "서울특별시 영등포구 영중로",
+            "location": "경방타임스퀘어,신세계백화점 버스정류장(19-112)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 112,
+            "manage_num": "가로6-7",
+            "road_name": "서울특별시 영등포구 영중로",
+            "location": "경방타임스퀘어,신세계백화점 버스정류장(19-117)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 113,
+            "manage_num": "가로6-8",
+            "road_name": "서울특별시 영등포구 문래로",
+            "location": "타임스퀘어 버스정류장(19-434)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 114,
+            "manage_num": "가로6-9",
+            "road_name": "서울특별시 영등포구 문래로",
+            "location": "영등포소방서,타임스퀘어버스정류장(19-851)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 115,
+            "manage_num": "기동A-1",
+            "road_name": "서울특별시 영등포구 노들로",
+            "location": "아리수 정수센터 버스정류장(19-215)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 116,
+            "manage_num": "기동A-2",
+            "road_name": "서울특별시 영등포구 노들로",
+            "location": "아리수 정수센터 버스정류장(19-215)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 117,
+            "manage_num": "기동A-3",
+            "road_name": "서울특별시 영등포구 노들로",
+            "location": "안양천입구 버스정류장(19-217)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 118,
+            "manage_num": "기동A-4",
+            "road_name": "서울특별시 영등포구 노들로",
+            "location": "안양천입구 버스정류장(19-217)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 119,
+            "manage_num": "여의-1",
+            "road_name": "서울특별시 영등포구 여의동로",
+            "location": "여의나루역 2번출구 버스정류장(19-140)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 120,
+            "manage_num": "여의-11",
+            "road_name": "서울특별시 영등포구 여의나루로 42",
+            "location": "여의도역 사거리 5번출구방향",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 121,
+            "manage_num": "여의-12",
+            "road_name": "서울특별시 영등포구 여의나루로 42",
+            "location": "여의도역 사거리5번출구방향",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 122,
+            "manage_num": "여의-13",
+            "road_name": "서울특별시 영등포구 여의나루로 76",
+            "location": "증권거래소 앞버스정류소(19-157)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 123,
+            "manage_num": "여의-14",
+            "road_name": "서울특별시 영등포구 여의나루로 76",
+            "location": "증권거래소 맞은편 버스정류소(19-158)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 124,
+            "manage_num": "여의-15",
+            "road_name": "서울특별시 영등포구 여의동로",
+            "location": "여의나루역 1번출구 버스정류장(19-139)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 125,
+            "manage_num": "여의-16",
+            "road_name": "서울특별시 영등포구 여의동로",
+            "location": "여의나루역 1번출구 버스정류장(19-139)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 126,
+            "manage_num": "여의-17",
+            "road_name": "서울특별시 영등포구 국제금융로7길 46",
+            "location": "여의도중학교 뒤 버스정류장(19-141)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 127,
+            "manage_num": "여의-18",
+            "road_name": "서울특별시 영등포구 국제금융로 108-6",
+            "location": "진주아파트 앞 버스정류장(19-149)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 128,
+            "manage_num": "여의-19",
+            "road_name": "서울특별시 영등포구 국제금융로 109",
+            "location": "삼익아파트 앞 버스정류장(19-145)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 129,
+            "manage_num": "여의-2",
+            "road_name": "서울특별시 영등포구 의사당대로",
+            "location": "여의도역 6번출구 버스정류장(19-155)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 130,
+            "manage_num": "여의-20",
+            "road_name": "서울특별시 영등포구 국회대로76길 15",
+            "location": "순복음교회 맞은편 버스정류장(19-137)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 131,
+            "manage_num": "여의-21",
+            "road_name": "서울특별시 영등포구 국회대로76길 15",
+            "location": "순복음교회 맞은편 버스정류장(19-137)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 132,
+            "manage_num": "여의-23",
+            "road_name": "서울특별시 영등포구 63로",
+            "location": "가톨릭대학교여의대성모병원 버스정류장(19-143)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 133,
+            "manage_num": "여의-24",
+            "road_name": "서울특별시 영등포구 국제금융로 78",
+            "location": "한양아파트버스정류장(19-286)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 134,
+            "manage_num": "여의-25",
+            "road_name": "서울특별시 영등포구 국제금융로 112",
+            "location": "여의동주민센터 앞버스정류장(19-148)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 135,
+            "manage_num": "여의-26",
+            "road_name": "서울특별시 영등포구 국제금융로 112",
+            "location": "여의동 주민센터 맞은편버스정류장(19-147)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 136,
+            "manage_num": "여의-27",
+            "road_name": "서울특별시 영등포구 국회대로",
+            "location": "B&B타워 앞",
+            "location_detail": "도로(가로)변"
+        },
+        {
+            "id": 137,
+            "manage_num": "여의-28",
+            "road_name": "서울특별시 영등포구 국회대로62길",
+            "location": "kbs연구동 입구",
+            "location_detail": "횡단보도 입구"
+        },
+        {
+            "id": 138,
+            "manage_num": "여의-29",
+            "road_name": "서울특별시 영등포구 의사당대로 1",
+            "location": "국회의사당역 1번출구 현대빌딩 앞",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 139,
+            "manage_num": "여의-3",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "KBS 별관 앞 버스정류장(19-150)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 140,
+            "manage_num": "여의-30",
+            "road_name": "서울특별시 영등포구 의사당대로 1",
+            "location": "국회의사당역 1번출구LG에클라트",
+            "location_detail": "지하철역 입구"
+        },
+        {
+            "id": 141,
+            "manage_num": "여의-31",
+            "road_name": "서울특별시 영등포구 의사당대로 1",
+            "location": "국회도서관 입구",
+            "location_detail": "도로(가로)변"
+        },
+        {
+            "id": 142,
+            "manage_num": "여의-32",
+            "road_name": "서울특별시 영등포구 의사당대로 1",
+            "location": "의원회관 입구",
+            "location_detail": "도로(가로)변"
+        },
+        {
+            "id": 143,
+            "manage_num": "여의-34",
+            "road_name": "서울특별시 영등포구 여의나루로 42",
+            "location": "미성아파트 A동 입구",
+            "location_detail": "도로(가로)변"
+        },
+        {
+            "id": 144,
+            "manage_num": "여의-35",
+            "road_name": "서울특별시 영등포구 국제금융로 82",
+            "location": "롯데캐슬 아이비 맞은편",
+            "location_detail": "도로(가로)변"
+        },
+        {
+            "id": 145,
+            "manage_num": "여의-4",
+            "road_name": "서울특별시 영등포구 여의길 55",
+            "location": "KBS 별관 앞 버스정류장(19-150)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 146,
+            "manage_num": "여의-5",
+            "road_name": "서울특별시 영등포구 여의서로",
+            "location": "여의도공원 버스정류장(19-138)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 147,
+            "manage_num": "여의-6",
+            "road_name": "서울특별시 영등포구 63로",
+            "location": "시범아파트 맞은편 63빌딩 버스정류장(19-144)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 148,
+            "manage_num": "여의-7",
+            "road_name": "서울특별시 영등포구 여의서로 43",
+            "location": "한서빌딩, 순복음교회 버스정류장(19-136)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 149,
+            "manage_num": "여의-8",
+            "road_name": "서울특별시 영등포구 여의대방로",
+            "location": "앙카라공원 앞 버스정류소(19-151)",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 150,
+            "manage_num": "이동",
+            "road_name": "서울특별시 영등포구 양산로",
+            "location": "양평역 1번 출구앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 151,
+            "manage_num": "이동",
+            "road_name": "서울특별시 영등포구 양산로",
+            "location": "양평역 1번 출구앞",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 152,
+            "manage_num": "이동",
+            "road_name": "서울특별시 영등포구 영등포로 178",
+            "location": "청과시장사거리 김안과쪽",
+            "location_detail": "정류장(버스, 택시 등)"
+        },
+        {
+            "id": 153,
+            "manage_num": "이동",
+            "road_name": "서울특별시 영등포구 여의나루로 96",
+            "location": "MBC옆 버스정류장",
+            "location_detail": "정류장(버스, 택시 등)"
+        }
+    ]
+}

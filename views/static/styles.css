@@ -1,0 +1,107 @@
+/* Mobile CSS*/
+body {
+  background-color: #dddddd;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: #082d64;
+  color: #d5def1;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 70vh;
+}
+
+.header img {
+  width: 5rem;
+  margin-top: 10px;
+}
+
+#mapView {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  bottom: 48vh;
+}
+
+.info {
+  width: 100vw;
+  position: fixed;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr;
+  width: 85vw;
+  height: 9vh;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.icon,
+.location,
+.meter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 0 15px;
+}
+.location {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.meter {
+  font-size: 1.5rem;
+  margin: 0 15px;
+}
+
+.info img {
+  width: 3rem;
+}
+
+/* >= 1025px (Desktop) */
+@media screen and (min-width: 1025px) {
+  body {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header,
+  .info {
+    width: 30vw;
+    height: 100vh;
+  }
+
+  #mapView {
+    width: 70vw;
+    height: 148vh;
+    position: static;
+  }
+
+  .info {
+    position: fixed;
+    top: 200px;
+  }
+  .grid {
+    width: 25vw;
+    height:12vh;
+  }
+  .location {
+    font-size: 1rem;
+  }
+  .meter {
+    font-size: 1.3rem;
+  }
+}
