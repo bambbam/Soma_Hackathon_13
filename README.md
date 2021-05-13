@@ -4,8 +4,15 @@
     <img src="./Resources/team_name.png" width=500>
 </div>
 
+## 여기 어때? 여기 버려!
+### 공공데이터를 이용한 쓰레기통 찾기
+
 - [쓰레기통을 찾아서](#find-trash)
 - [주요기능](#features)
+    - [쓰레기통을 찾아서](#give-me-trash-can)
+    - [가장 가까운 쓰레기통](#shortest-trash-can)
+    - [더 가까우면, 더 진해요](#near-then-real)
+    - [곧 서울을 정복하리라](#conquer-seoul)
 - [개린이들 팀원](#team)
 - [프로젝트 지원](#support)
 - [Copyright](#copyright)
@@ -30,6 +37,7 @@
 <a id="features"></a>
 # 주요기능 🚮 
 
+<a id="give-me-trash-can"></a>
 ## 쓰레기통 갖고 온나
 쓰레기통이 있는 곳에 핀이 찍힙니다.
 
@@ -37,17 +45,19 @@
     <img src="./Resources/trash_cans.png" width=500>
 </div>
 
-
+<a id="shortest-trash-can"></a>
 ## 가장 가까운 쓰레기통
 현재 위치에서 가장 가까운 쓰레기통의 위치를 보여줍니다. 물론 임의의 위치도 지정할 수 있고요!
 
 [[ image ]]
 
-## 더 근접하면, 더 진해요
-현재 위치에서 근접한 쓰레기통일수록 더 진하게 보입니다. 흐린 쓰레기통은 멀리 있어요!
+<a id="near-then-real"></a>
+## 더 가까우면면, 더 진해요
+현재 위치에서 가까운 쓰레기통일수록 더 진하게 보입니다. 흐린 쓰레기통은 멀리 있어요!
 
 [[ image ]]
 
+<a id="conquer-seoul"></a>
 ## 곧 서울을 정복하리라
 현재는 영등포구의 쓰레기통만 지원하고 있어요. 조만간 영등포구를 넘어 서울을 정복할 겁니다!
 
