@@ -1,11 +1,8 @@
 <div align="center">
     <h4>SM Maestro 12th</h4>
     <h3>Hackathon Team-13 개린이들<h3>
+    <img src="./Resources/team_name.png" width=500>
 </div>
-
-<center>
-    <img src="./Resources/team_name.png">
-</center>
 
 - [쓰레기통을 찾아서](#find-trash)
 - [주요기능](#features)
@@ -18,9 +15,9 @@
 <a id="find-trash"></a>
 # 쓰레기통을 찾아서
 
-<center>
+<div align="center">
     <img src="./Resources/recycle-bin.jpg">
-</center>
+</div>
 
 길을 거닐다가 대충 쓰레기통 못찾아서 힘들었던 내용
 
