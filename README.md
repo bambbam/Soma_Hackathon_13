@@ -13,7 +13,7 @@
 ---
 
 <a id="find-trash"></a>
-# 쓰레기통을 찾아서
+# 🗑️ 쓰레기통을 찾아서 🗑️
 
 <div align="center">
     <img src="./Resources/recycle-bin.jpg">
@@ -26,14 +26,14 @@
 
 
 <a id="features"></a>
-# 주요기능
+# 주요기능 🚮 
 - 기능1
 - 기능2
 
 ---
 
 <a id="team"></a>
-# 개린이들 팀원
+# 🤷‍♂️🤷‍♂️🤷‍♀ 개린이들 팀원 🤷‍🤷‍♂️🤷‍♂️
 ### Hackaton Team 13
 
 - 전민수 / 팀장
@@ -46,7 +46,7 @@
 --- 
 
 <a id="support"></a>
-# 프로젝트 지원
+# 프로젝트 지원 💸
 > 이 성과는 2021년도 과학기술정보통신부의 재원으로 정보통신기획평가원의 지원을 받아 수행된 연구임(IITP-0000-SW마에스트로과정).   
 This work was supported by the Institute of Information & Communications Technology Planning & Evaluation(IITP) grant funded
 by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
@@ -54,5 +54,5 @@ by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
 ---
 
 <a id="copyright"></a>
-# Copyright
+# Copyright ©
 Copyright 2021. (Team. 개린이들) All rights reserved.
