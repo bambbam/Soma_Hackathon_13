@@ -45,6 +45,7 @@ body {
   background-color: white;
   border-radius: 10px;
   margin: 5px 0;
+  cursor:pointer;
 }
 
 .icon,
@@ -69,6 +70,10 @@ body {
 
 .info img {
   width: 3rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 /* >= 1025px (Desktop) */
@@ -103,5 +108,9 @@ body {
   }
   .meter {
     font-size: 1.3rem;
+  }
+    
+  .hidden {
+    visibility: visible;
   }
 }

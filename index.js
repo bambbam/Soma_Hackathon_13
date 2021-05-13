@@ -11,8 +11,9 @@ app.engine('html',require('ejs').renderFile)
 app.set('views',__dirname+'/views');
 app.use(express.static(__dirname + '/views/static'));
 
-//const favicon = require('serve-favicon');
-//app.use(favicon(path.join(__dirname, 'views', 'favicon.ico')));
+const favicon = require('serve-favicon');
+const path = require("path");
+app.use(favicon(path.join(__dirname, 'favicon.ico')));
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -30,7 +31,7 @@ app.use(session({
 }));
 */
 
-const path = require('path')
+//const path = require('path')
 
 //const indexRouter = require('./routes');
 //const userRouter = require('./routes/user');
