@@ -523,3 +523,12 @@ function makeOutListener(infowindow) {
         infowindow.close();
     };
 }
+
+
+setInterval(()=>{
+	map.relayout();
+	var moveLatLon = new kakao.maps.LatLng(lat,lon);
+    
+    // 지도 중심을 이동 시킵니다
+    map.setCenter(moveLatLon);
+},4000);

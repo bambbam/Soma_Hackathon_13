@@ -99,14 +99,16 @@
       </section>
     </div>
 
-	<script>
-		
-		var to_show = document.getElementsByClassName("main")
-		var to_hide = document.getElementsByClassName("preview");
-		setTimeout(()=>{[to_show[0].id,to_hide[0].id] = [to_hide[0].id,to_show[0].id]},3000);
-		
-	</script>
+	
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=<%=kakaoMap%>&libraries=services"></script>
 <script type="text/javascript" src = "./source.js"></script>
+	<script> 
+		var to_show = document.getElementsByClassName("main")
+		var to_hide = document.getElementsByClassName("preview");
+		setTimeout(()=>{
+			[to_show[0].id,to_hide[0].id] = [to_hide[0].id,to_show[0].id];
+		},3000);
+		
+	</script>
 </body>
 </html>

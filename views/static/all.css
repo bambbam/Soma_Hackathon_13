@@ -191,10 +191,13 @@ body {
   display: none;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (min-height: 813px) {
     .title {
         display: none;
     }
+    #mapView {
+    bottom: 55vh;
+  }
 }
 
 /* >= 1025px (Desktop) */
