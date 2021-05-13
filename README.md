@@ -55,7 +55,7 @@
 현재 위치에서 가장 가까운 쓰레기통의 위치를 보여줍니다. 물론 임의의 위치도 지정할 수 있고요!
 
 <div align="center">
-    <img src="./Resources/nearest-can.png" width=500>
+    <img src="./Resources/nearest-can2.png" width=500>
 </div>
 
 <a id="near-then-real"></a>
