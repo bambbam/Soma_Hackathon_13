@@ -47,7 +47,7 @@
 쓰레기통이 있는 곳에 핀이 찍힙니다.
 
 <div align="center">
-    <img src="./Resources/trash_cans.png" width=500>
+    <img src="./Resources/trash-cans.png" width=500>
 </div>
 
 <a id="shortest-trash-can"></a>
