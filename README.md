@@ -23,7 +23,6 @@
     - [곧 서울을 정복하리라](#conquer-seoul)
 - [개린이들 팀원](#team)
 - [프로젝트 지원](#support)
-- [Copyright](#copyright)
 
 ---
 
@@ -124,6 +123,12 @@ by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
 
 ---
 
-<a id="copyright"></a>
-# Copyright ©
-Copyright 2021. (Team. 개린이들) All rights reserved.
+
+
+<br>
+<br>
+<br>
+
+<div align="center">
+    <h4>Copyright © 2021. (Team. 개린이들) All rights reserved.</h4>
+</div>
