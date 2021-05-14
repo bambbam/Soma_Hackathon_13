@@ -46,40 +46,39 @@ var now_roadname = ""
 //var infowindow;
 
 
+function calculate_loading(){
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(function(position)){
+													 
+		}
+		
+	}
+}
+
+
+
+
 /////////////////////////////////////현재 위치 지도에 찍어주기///////////////////////////////////////////
-	
 // HTML5의 geolocation으로 사용할 수 있는지 확인합니다 
- function convertLocation(callback){
+function convertLocation(callback){
 	if (navigator.geolocation) {
 		
-		/* 수정중 (변경 위치) */
-		var locPositionImageSrc = 'https://ifh.cc/g/xGoaf7.png', // 마커이미지의 주소입니다
-		locPositionImageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
-		locPositionImageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
-		// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-		var locPositionMarkerImage = new kakao.maps.MarkerImage(locPositionImageSrc, locPositionImageSize, locPositionImageOption);	
-		
-		
-		
 		//그래서 우리 위치를 정하고 다음 거리를 계산하려고 순서를 맞춰준거에요
 		navigator.geolocation.getCurrentPosition(function(position) {
 			
-			/* 수정중 (기존 위치) */
-			// var locPositionImageSrc = 'https://ifh.cc/g/xGoaf7.png', // 마커이미지의 주소입니다
-			// locPositionImageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
-			// locPositionImageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+			var locPositionImageSrc = 'https://ifh.cc/g/xGoaf7.png', // 마커이미지의 주소입니다
+			locPositionImageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+			locPositionImageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
-			// // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-			// var locPositionMarkerImage = new kakao.maps.MarkerImage(locPositionImageSrc, locPositionImageSize, locPositionImageOption);	
+			// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+			var locPositionMarkerImage = new kakao.maps.MarkerImage(locPositionImageSrc, locPositionImageSize, locPositionImageOption);
 
 			//locPositionMarkerImage.setClickable(true);
-			
+
 			lat = position.coords.latitude, // 위도
 			lon = position.coords.longitude; // 경도
 			
-			//lat = position.coords.latitude, // 위도
-			//lon = position.coords.longitude; // 경도
 			var geocoder = new kakao.maps.services.Geocoder();
 			
 			// async function a
@@ -89,7 +88,7 @@ var now_roadname = ""
 			}
 			searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
 			
-			//console.log("chk1" + now_roadname)
+			console.log("chk1" + now_roadname)
 			// console.log(lat, lon);
 			//여기에서 도로명 주소를 계산을 해버리자.
 			var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
@@ -112,46 +111,12 @@ var now_roadname = ""
 							// 주소-좌표 변환 객체를 생성합니다
 			// var geocoder = new kakao.maps.services.Geocoder();
 			// // now_roadname = 
-			// function searchAddrFromCoords(coords, callback) {
+			// function searchA
+			ddrFromCoords(coords, callback) {
 			// 	// 좌표로 행정동 주소 정보를 요청합니다
 			// 	geocoder.coord2RegionCode(coords.getLng(), coords.getLat(), callback);         
 			// }
 			// searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
-			
-		/* (추가) 위치 권한 차단 되었을 때 default 위치로 기준 위치 설정 (by 태호) */
-		}, function(error) {		// getCurrentPosition 함수의 두번째 인자는 에러발생 시 콜백 함수
-			console.log(error);
-			
-			// default(영등포구청) 위치
-			lat = 37.526888558257895;
-			lon = 126.89608433861413;
-			var geocoder = new kakao.maps.services.Geocoder();
-			
-			function searchAddrFromCoords(coords, callback) {
-				// 좌표로 행정동 주소 정보를 요청합니다
-				geocoder.coord2RegionCode(lon, lat, callback);   
-			}
-			searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
-			
-			//console.log("chk1" + now_roadname)
-			// console.log(lat, lon);
-			//여기에서 도로명 주소를 계산을 해버리자.
-			var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
-				// message = '<div style="padding:5px;">여기에 계신가요?</div>'; // 인포윈도우에 표시될 내용입니다
-				message = '<div id="homeInfo" style="width: 170px; height: 80px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size:18px; padding:5px;"><span style="margin-top:10px;">여기에 계신가요?</span><button id="btn-setLocation" onClick="setLocation()" style="width: 100px; height: 40px; background:#082d64; color: white; border: none; border-radius: 20px; padding: 5px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; ">위치 조정</button></div>'; // 인포윈도우에 표시될 내용입니다
-			
-			// 마커와 인포윈도우를 표시합니다
-			var homeObject = displayMarker(locPosition, locPositionMarkerImage, message);
-			homeMarker = homeObject.homeMarker;
-			// homeInfoWindow = homeObject.homeInfoWindow;
-			homeMarker.setClickable(true)
-
-
-			// 마커에 클릭이벤트를 등록합니다
-			kakao.maps.event.addListener(homeMarker, 'click', function() {
-				  // 마커 위에 인포윈도우를 표시합니다
-				  homeInfoWindow.open(map, homeMarker);  
-			});
 		});
 		
 
@@ -161,69 +126,31 @@ var now_roadname = ""
 
 		var locPosition = new kakao.maps.LatLng(lat, lon),    
 			message = '<div style="padding:5px;">geolocation을 사용할 수 없어요ㅜㅜ</div>';
-			displayMarker(locPosition, message);
-			searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
-			var locPositionImageSrc = 'https://ifh.cc/g/xGoaf7.png', // 마커이미지의 주소입니다
-			locPositionImageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
-			locPositionImageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-
-			// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-			var locPositionMarkerImage = new kakao.maps.MarkerImage(locPositionImageSrc, locPositionImageSize, locPositionImageOption);
-			lat = 37.526888558257895;
-			lon = 126.89608433861413;
-			
-			var geocoder = new kakao.maps.services.Geocoder();
-			
-			// async function a
-			function searchAddrFromCoords(coords, callback) {
-				// 좌표로 행정동 주소 정보를 요청합니다
-				geocoder.coord2RegionCode(coords.getLng(), coords.getLat(), callback);   
-			}
-			searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
-			
-			//console.log("chk1" + now_roadname)
-			// console.log(lat, lon);
-			//여기에서 도로명 주소를 계산을 해버리자.
-			var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
-				// message = '<div style="padding:5px;">여기에 계신가요?</div>'; // 인포윈도우에 표시될 내용입니다
-				message = '<div id="homeInfo" style="width: 170px; height: 80px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size:18px; padding:5px;"><span style="margin-top:10px;">여기에 계신가요?</span><button id="btn-setLocation" onClick="setLocation()" style="width: 100px; height: 40px; background:#082d64; color: white; border: none; border-radius: 20px; padding: 5px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; ">위치 조정</button></div>'; // 인포윈도우에 표시될 내용입니다
-
-
-			// 마커와 인포윈도우를 표시합니다
-			var homeObject = displayMarker(locPosition, locPositionMarkerImage, message);
-			homeMarker = homeObject.homeMarker;
-			// homeInfoWindow = homeObject.homeInfoWindow;
-			homeMarker.setClickable(true)
-
-
-			// 마커에 클릭이벤트를 등록합니다
-			kakao.maps.event.addListener(homeMarker, 'click', function() {
-				  // 마커 위에 인포윈도우를 표시합니다
-				  homeInfoWindow.open(map, homeMarker);  
-			});
-			
+		displayMarker(locPosition, message);
+		searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
+		
 		
 	}	
 	
 
 	function displayCenterInfo(result, status) {
 
-		//console.log("displayCenterInfo")
+		console.log("displayCenterInfo")
 		if (status === kakao.maps.services.Status.OK) {
 
 			for(var i = 0; i < result.length; i++) {
 				// 행정동의 region_type 값은 'H' 이므로
 				if (result[i].region_type === 'H') {
 					now_roadname = result[i].address_name;
-					//console.log("chk2" + now_roadname);
+					console.log("chk2" + now_roadname);
 					break;
 				}
 			}
 		}    
 	}
-	//console.log("convertLocation");
-	setTimeout(()=>{callback(get_three_element)},0); 
+	console.log("convertLocation");
 	
+	callback(get_three_element); 
 }
 
 
@@ -239,8 +166,8 @@ const delete_info_window = ()=>{
 	}
 }
 
-async function pingOnMap(callback){
-	//console.log("pingOnMap");
+function pingOnMap(callback){
+	console.log("pingOnMap");
 	var tempdist = []
 
 
@@ -337,21 +264,12 @@ async function pingOnMap(callback){
 				 
 				 
 				
-				//console.log("chk3" + now_roadname);
+				console.log("chk3" + now_roadname);
 				// 마커 위에 커스텀오버레이를 표시합니다
 				// 마커를 중심으로 커스텀 오버레이를 표시하기위해 CSS를 이용해 위치를 설정했습니다
 				var latlng = marker.getPosition()
 				var overlay = new kakao.maps.CustomOverlay({
-					/* 이전 버전 */
-					// content: '<div style="width: 270px; height: 120px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;"> <button style=" width: 100%; border: none; background-color: transparent; margin: 7px 20px; display: flex; justify-content: flex-end; cursor:pointer;"> <img src="./remove.png" onclick = "delete_info_window()" alt="close" style="width: 20px; height: 20px" /> </button><span>' + i.location + '</span> <span>'+i.location_detail+'</span> <a href="https://map.kakao.com/?map_type=TYPE_MAP&target=walk&rt=%2C%2C523953%2C1084098&rt1='+now_roadname+'&rt2='+ i.ll +'&rtIds=%2C&rtTypes=%2C" target="_blank"><button type="button" style="width: 120px; height: 30px; background:linear-gradient(90deg,rgba(0, 241, 143, 1) 0%, rgba(0, 150, 246, 1) 100%); color: white; border: none; border-radius: 20px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; "><img src="./marker2.png" alt="buttonImg" style="width: 25px; height: 25px; display: block; margin-right:5px"/><span>길찾기</span></button></a></div>',
-					
-					/*	
-						수정해본 길찾기 href (by 태호) 
-						- 해봤을 땐 뭔가 잘 되는 것 같은데, 길찾기 버튼이나 X(닫기) 버튼
-						  누르면 기준 위치가 누른 버튼 위치로 바뀌는 점이 있네요!
-					*/
-					content: '<div style="width: 270px; height: 120px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;"> <button style=" width: 100%; border: none; background-color: transparent; margin: 7px 20px; display: flex; justify-content: flex-end; cursor:pointer;"><img src="./remove.png" onclick = "delete_info_window()" alt="close" style="width: 20px; height: 20px" /> </button><span>' + i.location + '</span> <span>'+i.location_detail+'</span> <a href="https://map.kakao.com/?map_type=TYPE_MAP&target=walk&sName=' + now_roadname + '&eName=' + i.road_name + '&rtIds=%2C&rtTypes=%2C" target="_blank"><button type="button" style="width: 120px; height: 30px; background:linear-gradient(90deg,rgba(0, 241, 143, 1) 0%, rgba(0, 150, 246, 1) 100%); color: white; border: none; border-radius: 20px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; "><img src="./marker2.png" alt="buttonImg" style="width: 25px; height: 25px; display: block; margin-right:5px"/><span>길찾기</span></button></a></div>',
-//'<img src="./marker2.png" alt="buttonImg" style="width: 25px; height: 25px; display: block; margin-right:5px"/><span>길찾기</span></button></a></div>',   
+					content: '<div style="width: 270px; height: 120px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;"> <button style=" width: 100%; border: none; background-color: transparent; margin: 7px 20px; display: flex; justify-content: flex-end; cursor:pointer;"> <img src="./remove.png" onclick = "delete_info_window()" alt="close" style="width: 20px; height: 20px" /> </button><span>' + i.location + '</span> <span>'+i.location_detail+'</span> <a href="https://map.kakao.com/?map_type=TYPE_MAP&target=walk&rt=%2C%2C477523%2C1110662&rt1='+now_roadname+'&rt2='+ i.road_name +'&rtIds=%2C&rtTypes=%2C" target="_blank"><button type="button" style="width: 120px; height: 30px; background:linear-gradient(90deg,rgba(0, 241, 143, 1) 0%, rgba(0, 150, 246, 1) 100%); color: white; border: none; border-radius: 20px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; "><img src="./marker2.png" alt="buttonImg" style="width: 25px; height: 25px; display: block; margin-right:5px"/><span>길찾기</span></button></a></div>',        
 					map: map,
 					//position: marker.getPosition(),   
 					position: new kakao.maps.LatLng(latlng.getLat()+0.0002, latlng.getLng())
@@ -409,14 +327,12 @@ async function pingOnMap(callback){
 function get_three_element(tempdist){
 	
 	
-	//console.log("@@@");
+	console.log("@@@");
 	tempdist.sort();
-	//console.log(tempdist)
+	console.log(tempdist)
 }
 
 convertLocation(pingOnMap);
-//console.log(lat, lon);
-//convertLocation(pingOnMap);
 ////**************************제일 가까운거 3개 추리기******************************//
 
 // 지도에 마커와 인포윈도우를 표시하는 함수입니다
@@ -476,7 +392,7 @@ for(let i = 0;i<iconElement.length;i++){
 
 function iconHandler(i){
 	return function(){
-		//console.log(now_roadname);
+		console.log(now_roadname);
 		var url = 
 		"https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=%2C%2C477523%2C1110662&rt1="+now_roadname+"&rt2="+dist[i].road_name+"&rtIds=%2C&rtTypes=%2C"
 		window.open(url,'_blank');
@@ -500,20 +416,27 @@ kakao.maps.event.addListener(map, 'click', clickHandler = function(mouseEvent){
 	searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
 	function displayCenterInfo(result, status) {
 
-		//console.log("displayCenterInfo")
+		console.log("displayCenterInfo")
 		if (status === kakao.maps.services.Status.OK) {
 
 			for(var i = 0; i < result.length; i++) {
 				// 행정동의 region_type 값은 'H' 이므로
 				if (result[i].region_type === 'H') {
 					now_roadname = result[i].address_name;
-					//console.log("chk2" + now_roadname);
+					console.log("chk2" + now_roadname);
 					break;
 				}
 			}
 		}    
 	}
 	
+	// 이거 되나요? 되는거 같긴 해요  오..갓... 근데 이것도 한번 되고 ㄱ글그러네요 크흠..ㅜㅜ
+	// 뭔가 addListner랑 pingOnMap이랑 충돌나는것 같아요
+	console.log(now_roadname)
+	//searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
+	//된다!!!!!!! ?! 콜백함수를 안넘겨 주고 있었어오.. ㅏ; 빛기웅님 ? 빛 민수님? 인가요?
+	//킹문해가 해냈습니다
+	// 역시; 믿고 있었다구욧
 	pingOnMap(get_three_element); // 새로운 lat, lon 기준으로 재시작
 }); 
 
@@ -521,8 +444,8 @@ kakao.maps.event.addListener(map, 'click', clickHandler = function(mouseEvent){
 function setLocation(){
 	var homeInfo = document.getElementById('homeInfo');
 	var btnInfo = document.getElementById('btn-setLocation');
-	//console.log("hello, kakao");
-	//console.log(homeInfo);
+	console.log("hello, kakao");
+	console.log(homeInfo);
 	// homeInfo.innerHTML = '<div style="width: 180px; height: 80px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size:18px; padding:5px;"><span style="margin-top:10px;">위치를 지정해주세요</span><button onClick="stop_marker(map)" style="width: 70px; height: 40px; background:#082d64; color: white; border: none; border-radius: 20px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center;">여기!</button></div>';
 	// var infowindow = new kakao.maps.InfoWindow({
     //     content: '<div>여기인가요? <button onClick="stop_marker(map)">네!</button></div>' // 인포윈도우에 표시할 내용
@@ -549,9 +472,9 @@ function stop_marker(map) {
 
 	// var homeInfo = document.getElementById('homeInfo');
 	// homeInfo.innerHTML = '<div id="homeInfo" style="width: 170px; height: 80px; background-color: white; color: black; border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size:18px; padding:5px;"><span style="margin-top:10px;">여기에 계신가요?</span><button id="btn-setLocation" onClick="setLocation()" style="width: 100px; height: 40px; background:#082d64; color: white; border: none; border-radius: 20px; padding: 5px; margin: 10px 0; cursor:pointer; display: flex; justify-content: center; align-items: center; ">위치 조정</button></div>';
-	//console.log("stop_marker called", map);
+	console.log("stop_marker called", map);
 	kakao.maps.event.removeListener(map, 'click', clickHandler);
-	//console.log("Last position : ",lat, lon);
+	console.log("Last position : ",lat, lon);
 	homeMarker.setPosition(latlng);
 	searchAddrFromCoords(new kakao.maps.LatLng(lat, lon), displayCenterInfo);
 	pingOnMap(); // 새로운 lat, lon 기준으로 재시작
@@ -570,12 +493,3 @@ function makeOutListener(infowindow) {
         infowindow.close();
     };
 }
-
-
-setTimeout(()=>{
-	map.relayout();
-	var moveLatLon = new kakao.maps.LatLng(lat,lon);
-    
-    // 지도 중심을 이동 시킵니다
-    map.setCenter(moveLatLon);
-},4500);

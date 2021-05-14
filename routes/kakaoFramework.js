@@ -9,15 +9,21 @@ const request = require('request');
 
 
 router.get('/',async(req,res)=>{
-    res.render('kakao/kakao.ejs',{
+    res.render('all.ejs',{
         kakaoMap : kakaoMapKey.kakaoMap,
         data : data.list
     })
 })
-
+/*
 router.get('/loading',async(req,res)=>{
 	res.render('loading/loading.ejs');
 })
-
-rrouter.getouter.get
+router.get('/test',async(req,res)=>{
+	res.render('all.ejs',{
+		kakaoMap : kakaoMapKey.kakaoMap,
+        data : data.list
+	});
+})
+*/
+//router.getouter.get
 module.exports = router;

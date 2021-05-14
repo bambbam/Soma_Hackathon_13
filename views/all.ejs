@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/reset.css" />
-    <link rel="stylesheet" href="/all.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/all.css" />
 </head>
 <body>
 	
@@ -18,7 +18,7 @@
 		<div class="loading-container">
 		  <div class="loading"></div>
 		  <div class="loading-logo">
-			<img src="./logo.png" alt="logo" />
+			<img src="./image/logo.png" alt="logo" />
 			<h1>여기 어때? 여기 버려!</h1>
 		  </div>
 		</div>
@@ -30,7 +30,7 @@
     
     <div class="main" id="hidden">
       <header class="header">
-        <img src="./logo.png" alt="logo" />
+        <img src="./image/logo.png" alt="logo" />
         <div class="title">
           <h1>여기 어때?</h1>
           <h1>여기 버려!</h1>
@@ -43,7 +43,7 @@
       <section class="info">
         <div class="grid">
           <div class="icon">
-            <img src="./marker.png" alt="marker" />
+            <img src="./image/marker.png" alt="marker" />
           </div>
           <div class="location" id = "first">
             <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
@@ -54,7 +54,7 @@
         </div>
         <div class="grid">
           <div class="icon">
-            <img src="./marker.png" alt="marker" />
+            <img src="./image/marker.png" alt="marker" />
           </div>
           <div class="location" id = "second">
             <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
@@ -65,7 +65,7 @@
         </div>
         <div class="grid">
           <div class="icon">
-            <img src="./marker.png" alt="marker" />
+            <img src="./image/marker.png" alt="marker" />
           </div>
           <div class="location" id = "third">
             <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
@@ -76,7 +76,7 @@
         </div>
         <div class="grid hidden">
           <div class="icon">
-            <img src="./marker.png" alt="marker" />
+            <img src="./image/marker.png" alt="marker" />
           </div>
           <div class="location" id = "third">
             <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
@@ -87,7 +87,7 @@
         </div>
         <div class="grid hidden">
           <div class="icon">
-            <img src="./marker.png" alt="marker" />
+            <img src="./image/marker.png" alt="marker" />
           </div>
           <div class="location" id = "third">
             <span>가장 가까운 쓰레기통을 찾는 중입니다.</span>
@@ -95,19 +95,23 @@
           <div class="meter">
             <!-- <strong>10M</strong> -->
           </div>
+        </div>
+        <div class="copyright">
+          <span>Copyright 2021. (Team. 개린이들)</span>
+          <span>All rights reserved.</span>
         </div>
       </section>
     </div>
 
 	
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=<%=kakaoMap%>&libraries=services"></script>
-<script type="text/javascript" src = "./source.js"></script>
+<script type="text/javascript" src = "./js/source.js"></script>
 	<script> 
 		var to_show = document.getElementsByClassName("main")
 		var to_hide = document.getElementsByClassName("preview");
 		setTimeout(()=>{
 			[to_show[0].id,to_hide[0].id] = [to_hide[0].id,to_show[0].id];
-		},3000);
+		},4000);
 		
 	</script>
 </body>
