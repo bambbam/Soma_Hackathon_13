@@ -6,7 +6,11 @@
 
 # 여기 어때? 여기 버려!
 
-<img alt="HTML" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <img alt="Node.js" src ="https://img.shields.io/badge/Node.js-339933.svg?&style=for-the-badge&logo=Node.js&logoColor=white"/> <img alt="npm" src ="https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white"/> <img alt="goormIDE" src ="https://img.shields.io/badge/GoormIDE-0F54BB.svg?&style=for-the-badge&logo=&logoColor=white"/>
+<img alt="HTML" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <img alt="Node.js" src ="https://img.shields.io/badge/Node.js-339933.svg?&style=for-the-badge&logo=Node.js&logoColor=white"/> <img alt="npm" src ="https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white"/> <img alt="KakaoMap" src ="https://img.shields.io/badge/KakaoMap-FFCD00.svg?&style=for-the-badge&logo=Kakao&logoColor=black"/> <img alt="goormIDE" src ="https://img.shields.io/badge/GoormIDE-0F54BB.svg?&style=for-the-badge&logo=&logoColor=white"/>
+
+### Web-site URL : https://soma-hackathon-ifzqe.run.goorm.io/
+
+<br>
 
 ## 공공데이터를 이용한 쓰레기통 찾기
 
@@ -19,7 +23,6 @@
     - [곧 서울을 정복하리라](#conquer-seoul)
 - [개린이들 팀원](#team)
 - [프로젝트 지원](#support)
-- [Copyright](#copyright)
 
 ---
 
@@ -32,10 +35,11 @@
     <img src="./Resources/recycle-bin.jpg">
 </div>
 
-길을 걷다가 쓰레기통을 찾지 못해 계속 들고다니거나, 길거리에 쌓인 쓰레기봉투에 꾸겨 넣은 적이 있지 않나요?
+길을 걷다가 쓰레기통을 찾지 못해 계속 들고다니거나, 길거리에 쌓인 쓰레기봉투에 꾸겨 넣은 적이 있지 않나요? 🤔
 
-### 쓰레기는 쓰레기통에! 근데 쓰레기통은 어디에?
-### 여기 어때? 여기 버려!
+쓰레기는 쓰레기통에!를 실천하고 싶지만, 쓰레기통이 어디있는지 몰라서 '그냥 버릴까?'를 고민하게 된다면!
+
+이제는 쓰레기통의 현재 위치를 `여기 어때? 여기 버려!`에서 확인해보세요 😉
 
 ---
 
@@ -120,6 +124,12 @@ by the Ministry of Science and ICT(MSIT) (IITP-0000-SW Maestro training course).
 
 ---
 
-<a id="copyright"></a>
-# Copyright ©
-Copyright 2021. (Team. 개린이들) All rights reserved.
+
+
+<br>
+<br>
+<br>
+
+<div align="center">
+    <h4>Copyright © 2021. (Team. 개린이들) All rights reserved.</h4>
+</div>
